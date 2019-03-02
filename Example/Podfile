@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'FAQMediator_Example' do
+  pod 'FAQMediator', :path => '../'
+
+  target 'FAQMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
