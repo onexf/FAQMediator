@@ -1,0 +1,6 @@
+framework module Pods_FAQMediator_Example {
+  umbrella header "Pods-FAQMediator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

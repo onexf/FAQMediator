@@ -62,11 +62,11 @@
 		6F03648959179FA3E5F51A94 /* Pods-FAQMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAQMediator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FAQMediator_Example/Pods-FAQMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A687E39DB56BDDB9B1E5F9EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BA8C8CFBAF5A8CAE8F44EFDF /* FAQMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FAQMediator.podspec; path = ../FAQMediator.podspec; sourceTree = "<group>"; };
+		A687E39DB56BDDB9B1E5F9EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA8C8CFBAF5A8CAE8F44EFDF /* FAQMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FAQMediator.podspec; path = ../FAQMediator.podspec; sourceTree = "<group>"; };
 		C304D2EE7C374B0E15C36ED7 /* Pods-FAQMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAQMediator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FAQMediator_Tests/Pods-FAQMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D0C38D8C5FAC35E463C48706 /* Pods-FAQMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FAQMediator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FAQMediator_Tests/Pods-FAQMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8FB8A4ED97D9DDA3B974891 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D8FB8A4ED97D9DDA3B974891 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = onexf;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = P5VAF9T67V;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -497,6 +500,7 @@
 			baseConfigurationReference = 1A77DF0BE4BE82931E1E309E /* Pods-FAQMediator_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5VAF9T67V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FAQMediator/FAQMediator-Prefix.pch";
 				INFOPLIST_FILE = "FAQMediator/FAQMediator-Info.plist";
@@ -512,6 +516,7 @@
 			baseConfigurationReference = 6F03648959179FA3E5F51A94 /* Pods-FAQMediator_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5VAF9T67V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FAQMediator/FAQMediator-Prefix.pch";
 				INFOPLIST_FILE = "FAQMediator/FAQMediator-Info.plist";

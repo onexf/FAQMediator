@@ -1,0 +1,6 @@
+framework module FAQMediator {
+  umbrella header "FAQMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

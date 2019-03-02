@@ -1,0 +1,16 @@
+PODS:
+  - FAQMediator (0.1.0)
+
+DEPENDENCIES:
+  - FAQMediator (from `../`)
+
+EXTERNAL SOURCES:
+  FAQMediator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FAQMediator: a825dc9f1b6a9f9f7c501c150791fcad6770aa4c
+
+PODFILE CHECKSUM: 90e24a0bb6752c45075b4fba3cd34f413978be3b
+
+COCOAPODS: 1.5.3
